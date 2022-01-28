@@ -1,0 +1,110 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Font weights
+
+- Line heights
+
+- Letter spacing
+
+--- 02 COLORS
+
+- Primary: #29bfff
+- Tints: #de4d1d
+- Shades: 
+- Accents:
+- Greys: 
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    font-weight: 400;
+}
+
+/* ************************************* */
+/* HELPER CLASS */
+/* ************************************* */
+
+.container {
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    position: relative;
+}
+
+.heading-secondary {
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.text-body {
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
+.btn {
+    padding: 1.6rem 3.2rem;
+    background-color: #fdc800;
+    color: #002146;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-red {
+    color: #de4d1d !important;
+}
+
+.text-blue {
+    color: #29bfff !important;
+}

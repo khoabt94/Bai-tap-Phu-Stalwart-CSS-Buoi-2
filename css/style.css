@@ -1,0 +1,288 @@
+/* ************************************* */
+/* HEADER NAV */
+/* ************************************* */
+
+.header {
+    padding-top: 2.4rem;
+}
+
+.header__logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    padding-bottom: 3.2rem
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__item li {
+    display: inline-block;
+    float: left;
+}
+
+.nav__list {
+    padding: 0 1.6rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #29bfff;
+}
+
+.active{
+    color: #de4d1d;
+}
+
+.header__logo {
+    position: absolute;
+    top: -5px;
+    left: -48px;
+}
+
+.header__logo-heading {
+    font-size: 7.4rem;
+    font-weight: 700;
+}
+
+.header__logo-slogan {
+    text-transform: uppercase;
+    padding-left: 4.8rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* ************************************* */
+/* HERO */
+/* ************************************* */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images-layout1/banner2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 20rem;
+    padding-top: 40rem;
+}
+
+.hero__text-box {
+    margin-left: auto;
+    text-align: right;
+    width: 50%;
+    
+}
+
+.hero__heading {
+    font-size: 7.4rem;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.8rem 1.6rem;
+}
+
+.hero__subheading {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 2.4rem;
+    letter-spacing: 8px;
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+}
+
+.hero__subheading:first-of-type {
+    margin-top: 6.4rem;
+    margin-bottom: 2.4rem;
+}
+
+
+/* ************************************* */
+/* ABOUT */
+/* ************************************* */
+
+.section-about {
+    padding: 2.4rem 0 6.4rem 0;
+    background-color: #29bfff;
+}
+
+.about__heading {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+}
+
+.about__text {
+    margin-top: 2.4rem;
+}
+
+/* ************************************* */
+/* WELCOME */
+/* ************************************* */
+
+.section-welcome {
+    padding: 6.4rem 0;
+}
+
+.welcome__text {
+    width: 70%;
+    margin: 0 auto 2.4rem auto;
+}
+
+.welcome-img, .welcome__text-box {
+    width: 49%;
+    display: block;
+    float: left;
+}
+
+.welcome__text-box {
+    padding-top: 2.4rem;
+}
+
+.welcome__text-box i {
+    font-size: 2.4rem;
+    margin: 0 1.1rem 0 1.1rem;
+}
+
+.welcome__body {
+    padding-left: 4.8rem;
+    margin-top: 3.2rem;
+}
+
+/* ************************************* */
+/* WORK */
+/* ************************************* */
+
+.section-work {
+    padding: 3.2rem 0 6.4rem 0;
+}
+
+.work__img-img {
+    width: 33%;
+}
+
+/* ************************************* */
+/* SUCCESS */
+/* ************************************* */
+
+.section-success {
+    padding: 6.4rem 0 4.8rem 0;
+}
+
+
+.success__text-box {
+    float: left;
+}
+
+.success__text-box--left {
+    width: 60%;
+}
+
+.success__text-box--right {
+    width: 40%;
+    background-image: url('/images-layout1/index-serives.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.success__service-heading {
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.success__service-item {
+    list-style: none;
+    margin-bottom: 4.8rem;
+}
+
+.success__service-item .success__service-list:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+
+.success__service-list i {
+    font-size: 2rem;
+    margin-right: 1.2rem;
+}
+
+.success__service-item--right {
+    padding: 6.8rem 6.8rem 2.4rem 6.8rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    
+}
+
+.success__service-item--right .success__service-list--right:not(:last-child) {
+    margin-bottom: 4rem;
+}
+
+.success__service-item--right span {
+    margin-right: 2.4rem;
+}
+
+
+/* ************************************* */
+/* FOOTER */
+/* ************************************* */
+
+.footer {
+    padding: 6.4rem 0 4.8rem 0;
+    background-color: #242424;
+}
+
+.footer__nav, .footer__touch, .footer__input, .footer__copyright {
+    float: left;
+    width: 25%;
+}
+
+.footer__item {
+    list-style: none;
+}
+
+.footer__list {
+    text-decoration: none;
+}
+
+.footer__heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+}
+
+.footer__list, .footer__subheading {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #b3b3b3
+}
+
+.footer__subheading {
+    margin-bottom: 1.6rem;
+}
+
+.footer__email {
+    padding: 0.4rem 0.8rem;
+    font-family: inherit;
+    border: none;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+.footer__submit {
+    padding: 0.7rem 2rem;
+    font-family: inherit;
+    display: inline-block;
+    background-color: #eb5224;
+    color: #fff;
+    border: none;
+}
+
+.footer__item li:not(:last-child) {
+    margin-bottom: 2.4rem;
+}
+
+.footer__subheading span {
+    color: red;
+}
+
+.footer__copyright {
+    padding: 3.2rem 1.6rem;
+}
